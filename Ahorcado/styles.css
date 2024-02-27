@@ -1,0 +1,98 @@
+body {
+    background-color: #caf391;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#canvas {
+    background-color: #D3D3D3;
+    border: 2px solid #333;
+    width: 420px;
+    height: 420px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+#letter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#letterButtons {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7ac6e7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    min-width: 60px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#wordDisplay {
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+#guessesDisplay {
+    font-size: 18px;
+    color: rgb(239, 13, 35);
+}
+
+#message {
+    font-size: 24px;
+    color: green;
+    margin-top: 20px;
+    display: none;
+}
+
+#message.lose {
+    color: red;
+}
+
+#attemptsRemaining {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+#keyboard {
+    margin-top: 20px;
+}
+
+.letterButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7ac6e7;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    min-width: 60px;
+    margin: 5px;
+}
+
+.letterButton:hover {
+    background-color: #555;
+}
