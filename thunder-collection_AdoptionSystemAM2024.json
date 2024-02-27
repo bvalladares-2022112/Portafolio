@@ -1,0 +1,57 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "AdoptionSystemAM2024",
+    "dateExported": "2024-02-22T14:59:24.276Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "20569a02-62b4-4a1a-a099-06bc074091ff",
+            "name": "ADMIN",
+            "containerId": "",
+            "created": "2024-02-22T14:51:58.608Z",
+            "sortNum": 60000
+        },
+        {
+            "_id": "382c1f08-f8f2-4333-a91c-d465388dc1e1",
+            "name": "CLIENT",
+            "containerId": "",
+            "created": "2024-02-22T14:52:05.802Z",
+            "sortNum": 70000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "d0895a68-0852-49fb-bf59-70ab53602bcf",
+            "colId": "0ae86301-44e6-4f53-b739-3ddab2e5cbb7",
+            "containerId": "20569a02-62b4-4a1a-a099-06bc074091ff",
+            "name": "TestAppointment",
+            "url": "/appointment/test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-02-22T14:52:28.218Z",
+            "modified": "2024-02-22T14:55:34.991Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "a5b02c3d-87b4-485d-8432-ae942b810f66",
+            "colId": "0ae86301-44e6-4f53-b739-3ddab2e5cbb7",
+            "containerId": "20569a02-62b4-4a1a-a099-06bc074091ff",
+            "name": "SaveAppointment",
+            "url": "localhost:2656/appointment/save",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-02-22T14:53:27.786Z",
+            "modified": "2024-02-22T14:53:44.313Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656"
+        }
+    }
+}
